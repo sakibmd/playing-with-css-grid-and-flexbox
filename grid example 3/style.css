@@ -1,0 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.app {
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr;
+    height: 100vh;
+}
+
+.header{
+    background-color: brown;
+    
+}
+.main{
+    background-color: coral;
+}
+.footer{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: flex-end;
+}
+
+
+
