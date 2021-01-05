@@ -1,0 +1,26 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 50px 30px;
+    background-color: rgb(107, 100, 114);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    background-color: aquamarine;
+    padding: 30px;
+    width: 321px;
+    margin: 10px;
+}
+
+/* @media only screen and (max-width: 480px) {
+   
+    .box {
+      width: 100%;
+    }
+  } */

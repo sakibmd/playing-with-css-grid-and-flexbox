@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.area {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0px;
+    flex-direction: row;
+
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.banner img {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+.banner {
+    margin-bottom: 15px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.welcome-menu {
+    flex-basis: 10%;
+}
+
+.welcome-content {
+    flex-basis: 85%;
+}
+
+.welcome-menu h4,
+.welcome-content h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 12px;
+    
+}
+
+.welcome-menu ul li {
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+.welcome-menu ul li a {
+    text-decoration: none;
+    color: #333;
+
+    font-size: 16px;
+}
+
+.welcome-inner{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single-welcome{
+    flex-basis: 48%;
+}
