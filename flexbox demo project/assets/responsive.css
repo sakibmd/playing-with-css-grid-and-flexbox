@@ -1,0 +1,111 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area {
+        width: 900px;
+    }
+
+    .welcome-menu {
+        flex-basis: 15%;
+    }
+
+    .welcome-content {
+        flex-basis: 80%;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .area {
+        width: 730px;
+    }
+
+    .welcome-menu {
+        flex-basis: 20%;
+    }
+
+    .welcome-content {
+        flex-basis: 75%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .logo{
+        flex-basis: 100%;
+        text-align: center;
+        font-weight: 800;
+    }
+    .menu{
+        flex-basis: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+    .title h4 {
+        font-size: 33px;
+    }
+    .area {
+        width: 320px;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .welcome-menu{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .welcome-content {
+        flex-basis: 100%;
+        margin: 20px 0px;
+    }
+
+    .single-welcome {
+        flex-basis: 44%;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 38px;
+    }
+
+    .about-left {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-menu {
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .single-footer:nth-child(1), .single-footer:nth-child(2), .single-footer:nth-child(3)  {
+        flex-basis: 100%;
+        margin-bottom: 12px;
+    }
+    
+    
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .area{
+        width: 450px;
+    }
+    .title h4 {
+        font-size: 33px;
+    }
+}
