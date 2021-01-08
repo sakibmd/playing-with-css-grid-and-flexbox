@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: menu;
+}
+
+.item-3 {
+    grid-area: main;
+}
+
+.item-4 {
+    grid-area: aside;
+}
+
+.item-5 {
+    grid-area: footer;
+}
+
+.area {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+        "header header header header header header"
+        "menu main main main aside aside"
+        "menu footer footer footer footer footer"
+    ;
+}
+
+.area>div {
+    background-color: rgb(152, 236, 208);
+    padding: 20px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #333;
+}

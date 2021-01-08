@@ -1,0 +1,184 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 400px;
+    padding: 15px 30px;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.logo h2 {
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('img/cover.jpg');
+    height: auto;
+    padding: 60px 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.cover h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cover p {
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.cover a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.cover a:hover {
+    background-color: rgb(185, 175, 173);
+}
+
+.services {
+    padding: 80px 0px
+}
+
+.services img {
+    width: 100%;
+    padding: 5px;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.all-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.single-service {
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(231, 231, 231);
+    padding-bottom: 30px;
+}
+
+.single-service h4 {
+    font-size: 24px;
+    color: indigo;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5%;
+    margin-bottom: 20px;
+}
+
+.single-service p {
+    font-size: 16px;
+    font-family: monospace;
+    padding: 0% 5%;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: rgb(24, 7, 7);
+}
+
+.single-service a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: 1s;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.single-service a:hover {
+    background-color: rgba(29, 6, 6, 0.699);
+}
+
+
+.team {
+    padding: 80px 0px;
+}
+
+.team img {
+    width: 100%;
+    padding: 5px
+}
+
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.team-members{
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+.single-member{
+    width: 80%;
+    background: black;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+.single-member h4{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.single-member h6{
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: gray;
+}
+
+.single-member p{
+    font-size: 16px;
+    margin-top: 7px;
+    margin: 0% 5%;
+    text-align: justify;
+    color: #333;
+}
