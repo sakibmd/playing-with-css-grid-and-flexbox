@@ -1,0 +1,116 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .about {
+        padding-bottom: 20px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header {
+        grid-template-columns: auto 330px;
+    }
+
+    .cover {
+        grid-template-columns: auto 100px;
+    }
+
+    .single-service {
+        width: 90%;
+    }
+
+    .single-member {
+        width: 90%;
+    }
+
+    .single-member p {
+        padding-bottom: 15px;
+    }
+
+    .about {
+        align-items: center;
+    }
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .logo h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header {
+        grid-template-columns: auto;
+    }
+
+    .header ul li {
+        display: block;
+        margin: 15px;
+    }
+
+    .cover {
+        grid-template-columns: auto;
+    }
+
+    .cover h4 {
+        font-size: 32px;
+    }
+
+    .cover p {
+        width: 90%;
+    }
+
+    .all-services {
+        grid-template-columns: 1fr;
+
+    }
+
+    .single-service {
+        margin-bottom: 12px;
+    }
+
+    .team-members {
+        grid-template-columns: auto;
+    }
+
+    .single-member {
+        margin-bottom: 12px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .single-footer {
+        margin-bottom: 50px;
+    }
+
+    .service-title {
+        font-size: 28px;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
