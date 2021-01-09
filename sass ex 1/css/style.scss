@@ -1,0 +1,36 @@
+.header {
+  background-color: aquamarine;
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 20px;
+      a {
+        text-decoration: none;
+        padding: 7px 20px;
+      }
+    }
+  }
+}
+
+.cover {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+  h2 {
+  }
+  p {
+    padding: 10px 10%;
+    text-align: justify;
+  }
+
+  a {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

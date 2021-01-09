@@ -1,0 +1,43 @@
+.header {
+  background-color: aquamarine;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  padding: 7px 20px;
+}
+
+.cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cover p {
+  padding: 10px 10%;
+  text-align: justify;
+}
+
+.cover a {
+  background-color: brown;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
