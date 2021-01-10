@@ -1,0 +1,10 @@
+.boxes{
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    div{
+        height: 250px;
+        width: 250px;
+        background: red;
+    }
+}

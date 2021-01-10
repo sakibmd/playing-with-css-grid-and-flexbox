@@ -1,0 +1,9 @@
+$primary_color: rgb(255, 81, 197);
+
+@mixin detailsButton {
+    background-color: $primary_color;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
