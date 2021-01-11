@@ -1,5 +1,12 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .header {
-  background-color: #ff51c5;
+  background-color: #00195e;
 }
 
 .header ul li {
@@ -36,11 +43,13 @@
 }
 
 .cover a {
-  background-color: #ff51c5;
+  background-color: #00195e;
   color: whitesmoke;
   padding: 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 30px 0px;
+  display: inline-block;
 }
 
 .service {
@@ -60,11 +69,13 @@
 }
 
 .service div a {
-  background-color: #ff51c5;
+  background-color: #00195e;
   color: whitesmoke;
   padding: 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 30px 0px;
+  display: inline-block;
 }
 
 .about {
@@ -110,5 +121,37 @@
   height: 250px;
   width: 250px;
   background: red;
+}
+
+.boxes .box-1 {
+  background-image: url("../img/1.jpg");
+}
+
+.boxes .box-3 {
+  background-image: url("../img/2.jpg");
+}
+
+.boxes .box-2 {
+  background-image: url("../img/3.jpg");
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  background-color: #333;
+  padding: 30px;
+  color: whitesmoke;
+}
+
+.footer .single-footer h2 {
+  text-align: center;
+}
+
+.footer .single-footer p {
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.menu>div {
+    height: auto;
+    background: red;
+    width: 20%;
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+
+}
+
+/* 
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .menu {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .menu {
+        grid-template-columns: auto;
+    }
+    
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+} */
