@@ -49,6 +49,8 @@
 
     .header {
         grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
     }
 
     .header ul li {

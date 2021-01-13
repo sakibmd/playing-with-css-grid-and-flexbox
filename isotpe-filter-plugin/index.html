@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtering Pluign Isotope</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <ul class="portfolio-menm">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".web">Web</li>
+                    <li data-filter=".software">Software</li>
+                    <li data-filter=".graphic">Graphic</li>
+                    <li data-filter=".seo">SEO</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio-item">
+            <div class="col-xl-4 seo graphic">
+                <div class="single-portfolio">
+                    <img src="assets/img/1.jpg" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>project title</h4>
+                        <p>project short description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 software">
+                <div class="single-portfolio">
+                    <img src="assets/img/2.jpg" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>project title</h4>
+                        <p>project short description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 web seo">
+                <div class="single-portfolio">
+                    <img src="assets/img/3.jpg" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>project title</h4>
+                        <p>project short description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 software">
+                <div class="single-portfolio">
+                    <img src="assets/img/4.jpg" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>project title</h4>
+                        <p>project short description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 graphic">
+                <div class="single-portfolio">
+                    <img src="assets/img/5.jpg" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>project title</h4>
+                        <p>project short description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 graphic">
+                <div class="single-portfolio">
+                    <img src="assets/img/6.jpg" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>project title</h4>
+                        <p>project short description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script>
+        // init Isotope
+        var $grid = $('.portfolio-item').isotope({
+        // options
+        });
+        // filter items on button click
+        $('.portfolio-menm').on( 'click', 'li', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
+
+        $('.portfolio-menm').on( 'click', 'li', function() {
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+    </script>
+</body>
+</html>
